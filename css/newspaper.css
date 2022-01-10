@@ -1,0 +1,221 @@
+.div1{
+	width: 100%;
+	height: 120px;
+	background: darkred;
+	display: flex;
+}
+
+.logo{
+	width: 65%;
+	color: white;
+}
+
+h1{
+	padding-left: 30px;
+}
+
+h2{
+	font-size: 18px;
+	padding-left: 30px;
+}
+
+.logo2{
+	padding-top: 40px;
+}
+
+.login, .register{
+	text-decoration: none;
+	padding-right: 50px;
+	font-size: 18px;
+	color: white;
+}
+
+nav{
+	width: 100%;
+	height: 50px;
+	clear: both;
+	padding-top: 10px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	float: left;
+	width: 110px;
+	text-align: center;
+	/*line-height: 100px;*/
+}
+
+.div2{
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+
+.div21{
+	padding-left: 30px;
+	padding-top: 10px;
+	width: 70%;
+}
+
+table, tr, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 7px;
+}
+
+table tr .t11, table tr .t21{
+	width: 150px;
+	color: white;
+}
+
+table tr .t12, table tr .t22{
+	width: 600px;
+}
+
+.t11{
+	background-color: red;
+}
+
+.t21{
+	background-color: black;
+}
+
+.t12,.t22{
+	background-color: silver;
+}
+
+.div22{
+	width: 30%;
+	background-image: url('../photo/lottery.png');
+	background-repeat: no-repeat;
+	background-size: 280px;
+}
+
+.div22 button{
+	padding: 10px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 30px;
+	background-color: black;
+	color: white;
+}
+
+.div3{
+	width: 100%;
+	display: flex;
+	height: 900px;
+	margin-top: 50px;
+}
+
+.div31{
+	width: 43%;
+	padding-left: 30px;
+}
+
+.div311{
+	height: 400px;
+	background-image: url('../photo/htantalang.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.div31 span{
+	color: red;
+	font-size: 20px;
+}
+
+.div31 h3{
+	font-size: 35px;
+	text-align: justify;
+}
+
+.div32{
+	width: 23%;
+	padding-left: 20px;
+}
+
+.div321{
+	height: 200px;
+	background-image: url('../photo/ukyawmoetun.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.politics{
+	color: red;
+	font-size: 20px;
+}
+
+.div32 h4{
+	font-size: 25px;
+	/*text-align: justify;*/
+}
+
+.num{
+	padding-right: 20px;
+	color: black;
+}
+
+.div322{
+	height: 200px;
+	background-image: url('../photo/military.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+}
+
+.div33{
+	width: 28%;
+	padding-left: 20px;
+}
+
+.div331, .div332, .div333, .div334, .div335{
+	display: flex;
+	height: 120px;
+}
+
+.img1{
+	width: 35%;
+	background-image: url('../photo/art1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img2{
+	width: 35%;
+	background-image: url('../photo/assk.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img3{
+	width: 35%;
+	background-image: url('../photo/oxygen.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img4{
+	width: 35%;
+	background-image: url('../photo/protest.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img5{
+	width: 35%;
+	background-image: url('../photo/index.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.info{
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}

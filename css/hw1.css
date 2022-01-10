@@ -1,0 +1,26 @@
+table{
+	width: 100%;
+	border-collapse: collapse ;
+}
+
+th,td{
+	border: 1px solid silver;
+	height: 50px;
+}
+
+th{
+	background-color: green;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: aliceblue;
+}
+
+td:first-child{
+	text-align: center;
+}
+
+small{
+	float: right;
+}

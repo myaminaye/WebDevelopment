@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+	color: #4b4846;
+	background-color: #f4dfc2;
+	font-family: 'Josefin Sans', sans-serif;
+	/*overflow: hidden;*/
+}
+
+.sec1, .sec2, .sec3, .sec4, .footer{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.sec1 nav{
+	width: 100%;
+	height: 60px;
+	clear: both;
+	padding-top: 10px;
+	background-color: #dcb591;
+}
+
+.navrow{
+	display: flex;
+	width: 100%;
+}
+
+.logo{
+	width: 30%;
+	padding-left: 50px;
+}
+
+.emerald{
+	font-family: 'Bonheur Royale', cursive;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	float: left;
+	width: 120px;
+	text-align: center;
+}
+
+nav ul li:last-child{
+	width: 300px;
+}
+
+.sec1 .home{
+	background-color:#fcc89e ;
+	border-radius: 10px;
+}
+
+.slider{
+	width: 100%;
+	height: 640px;
+	background-image: url(../photo/travelinnly.jpg);
+	background-size: cover;
+	
+	animation-name: slide;
+	animation-duration: 50s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	display: flex;
+}
+
+@keyframes slide{
+	25%{
+		background-image: url(../photo/travelkalaw.jpg);
+		opacity: 75%;
+		transition: ;
+	}
+
+	50%{
+		background-image: url(../photo/travelmdymode.jpg);
+		opacity: 75%;
+	}
+
+	75%{
+		background-image: url(../photo/travelmogok.jpg);
+		opacity: 75%;
+	}
+
+	100%{
+		background-image: url(../photo/travelinnly.jpg);
+		opacity: 75%;
+	}
+}
+
+.text-box{
+	width: 800px;
+	height: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-top: 150px;
+	margin-left: 100px;
+}
+
+.text-box h1{
+	font-size: 40px;
+	text-shadow: 5px 5px 5px #bb9976 ;
+}
+
+.book{
+	margin-top: 230px;
+	margin-left: 120px;
+	padding: 25px;
+	font-size: 25px;
+	font-weight: bold;
+	background-color:#bb9976;
+	box-shadow: 5px 5px #4b4846;
+}
+
+.sec2{
+	width: 100%;
+	height: 100vh;
+}
+
+.sec2 .about{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+.about h1{
+	font-size: 50px;
+	padding-top: 30px;
+	text-shadow: 5px 5px 3px #fcc89e;
+}
+
+.about p{
+	padding: 0px 50px;
+	font-size: 20px;
+}
+
+.fact{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	margin-top: 20px;
+}
+
+.fact1, .fact2, .fact3, .fact4{
+	width: 20%;
+	margin: 30px;
+	text-align: justify;
+	font-size: 20px;
+	color: #4b4846;
+}
+
+.fact h3{
+	text-align: center;
+}
+
+.fact i{
+	font-size: 200%;
+	padding-left: 100px;
+}
+
+.sec3{
+	background: linear-gradient(#fcc89e,#bb9976,#dcb591);
+}
+
+.sec3 h1{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 50px;
+}
+
+.place{
+	width: 100%;
+	display: flex;
+	margin-left: 60px;
+}
+
+.place1 ,.place2, .place3{
+	width: 30%;
+	height: 350px;
+	margin-right: 15px;
+	
+	position: relative;
+}
+
+.place img{
+	position: absolute;
+	width: 100%;
+	border-radius: 15px;
+}
+
+.sec3 button{
+	padding: 10px;
+	font-size: 20px;
+	color: black;
+	background-color: #fcc89e;
+	border-radius: 30px;
+	margin-left: 50%;
+	border: none ;
+}
+
+.sec4{
+	background-image: url(../photo/travelmdymoat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+}
+
+.navcity{
+	width: 30%;
+	height: 100vh;
+}
+
+.navcity ul{
+	list-style: none;
+}
+
+.navcity ul li{
+	width: 250px;
+	background-color: #fcc89e;
+	text-align: center;
+	border: 2px solid black;
+	float: left;
+
+	line-height: 50px;
+	margin-top: 20px;
+
+	transition: all 1s;
+}
+
+.navcity ul li:hover{
+	background-color: #4b4846;
+}
+
+.navcity ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+}
+
+.navcity ul li:last-of-type{
+	width: 250px;
+}
+
+.navcity ul li:first-of-type{
+	width: 300px;
+	background-color: orange;
+	line-height: 70px;
+}
+
+.mandalay{
+	width: 70%;
+	height: 100vh;
+	display: flex;
+}
+
+.mdy1,.mdy2,.mdy3{
+	width: 30%;
+	height: 100vh;
+	margin-left: 20px;
+	/*background-color: green;*/
+	position: relative;
+}
+
+.mdy1{
+	padding-top: 40px;
+}
+
+.mdy2{
+	padding-top: 240px;
+}
+
+.mdy3 .divimg{
+	padding-top: 445px;
+}
+
+.mdy3 .divh3{
+	padding-top: 70px;
+}
+
+.divh3 h3{
+	font-size: 30px;
+	font-weight: bolder;
+	color: orange;
+}
+
+.mandalay img{
+	position: absolute;
+	width: 100%;
+	border-radius: 15px;
+	padding: 10px;
+	background-color: #fcc89e;
+}
+
+.mdyabout{
+	width: 200px;
+	height: 200px;
+	background-color: pink;
+}
+
+footer{
+    background-color: #333;
+    padding: 50px;
+    font-size: 90%;
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:active,
+.footer-nav li a:hover{
+    color: #ddd;
+}
+
+footer p{
+    color: #888;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*#dcb591,#f4dfc2, pink*/
+/*brown #bb9976*/
+/*black #4b4846*/
+/*orange pink #fcc89e*/
+
+
+
+
